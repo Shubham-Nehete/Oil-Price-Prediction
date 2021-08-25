@@ -33,13 +33,13 @@ Prediction of oil price to study/predict the market movements using time-varying
 a data scientist than being able to predict market movements of any kind with their models?
 
 **Models used:** 
-I had tried in this project is time-series models, i.e. AR (Autoregressive), ARIMA (Autoregressive Integrated
-Moving Average), and FbProphet and Linear Regression.
+In this project, I had tried the time-series models, i.e. AR (Autoregressive), ARIMA (Autoregressive Integrated
+Moving Average), and FbProphet and Simple Linear Regression.
 
 **Libraries/Tools:** 
-Pandas, Numpy, Datetime, Seaborn, Matplotlib, PLotly, Sklearn, ARIMA, AR, FbProphet, Timeseries-cv.
+Pandas, Numpy, Datetime, Seaborn, Matplotlib, Plotly, Sklearn, ARIMA, AR, FbProphet, Timeseries-cv.
 
-**Conclusion:** 
+**Conclusion:**
 It is observed that almost all the time series models (AR, ARIMA, FbProphet) have performed somewhat
 similar, out of that FbProphet model cross-validation result is more consistent than the other two and
 linear regression. Comparing the RMSE scores of cross-validation, even though it is trivial in this case since
@@ -55,5 +55,5 @@ period. Still, we can compare the cross-validation results and it is found that 
 Hence, Overall, FbProphet model has performed better.
 
 **Future scope:** 
-1. Use multiple machine learning algorithm with complexity.
-2. Could make use of other factors for predicting oil prices.
+1. Could make use of other factors for predicting oil prices.
+2. Could make regularization for linear regression using ridge & lasso and can try other algorithms.
